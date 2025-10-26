@@ -232,6 +232,23 @@ const App = () => {
                     align-items: center;
                     justify-content: center;
                 }
+                
+                /* --- START MODIFICATION FOR SAME SIZE BUTTONS ON MOBILE --- */
+                @media (max-width: 768px) {
+                    .cta-buttons {
+                        flex-direction: column; /* Stack buttons vertically on mobile */
+                        width: 100%; /* Ensure cta-buttons container uses full width */
+                        max-width: 400px; /* Optional: limit max width for stacked buttons */
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    
+                    .cta-button {
+                        width: 100%; /* Crucial: Make buttons take up full width of the container */
+                        min-width: unset; /* Remove min-width constraint on mobile */
+                    }
+                }
+                /* --- END MODIFICATION --- */
 
                 .cta-button:hover {
                     transform: translateY(-2px);
@@ -510,7 +527,7 @@ const App = () => {
                     
                     <div className="cta-buttons">
                         <a href="##" className="cta-button cta-call">
-                            <span>📞</span> 06-59-62-15-05         .
+                            <span>📞</span> 06-59-62-15-05
                         </a>
                         <a href={whatsappLink} className="cta-button cta-whatsapp" target="_blank" rel="noopener noreferrer">
                             <span>💬</span> Appeler Maintenant (WhatsApp)
