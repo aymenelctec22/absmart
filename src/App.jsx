@@ -561,7 +561,7 @@ const App = () => {
                         <h3>Informations de Contact</h3>
                         <div className="info-item">
                             <span>📞</span> 
-                            <p>Téléphone: 06-59-62-15-05</p>
+                            <p>Téléphone: =213 659621505</p>
                         </div>
                         <div className="info-item">
                             <span>📱</span> 
