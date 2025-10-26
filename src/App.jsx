@@ -505,12 +505,12 @@ const App = () => {
                         Votre <strong>Expert</strong> en climatisation, caméras et paraboles
                     </h1>
                     <p className="hero-description">
-                        Spécialiste local et familial, devis gratuits, service le jour même (sous conditions), 7j/7. Nous offrons des solutions complètes pour votre sécurité, votre connectivité et votre confort.
+                            Spécialiste local en clim, paraboles et caméras. Devis gratuits, service rapide du sam. au jeu. (10h–17h). Confort, sécurité et connectivité assurés.              
                     </p>
                     
                     <div className="cta-buttons">
                         <a href="##" className="cta-button cta-call">
-                            <span>📞</span> 06-59-62-15-05
+                            <span>📞</span> 06-59-62-15-05         .
                         </a>
                         <a href={whatsappLink} className="cta-button cta-whatsapp" target="_blank" rel="noopener noreferrer">
                             <span>💬</span> Appeler Maintenant (WhatsApp)
@@ -561,7 +561,7 @@ const App = () => {
                         <h3>Informations de Contact</h3>
                         <div className="info-item">
                             <span>📞</span> 
-                            <p>Téléphone: =213 659621505</p>
+                            <p>Téléphone: +213 659621505</p>
                         </div>
                         <div className="info-item">
                             <span>📱</span> 
